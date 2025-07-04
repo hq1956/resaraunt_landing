@@ -1,0 +1,417 @@
+@media (max-width: 1040px) {
+    body {
+        overflow-x: hidden;
+    }
+    .desktop_version {
+        flex-wrap: wrap;
+    }
+    .button_last {
+        width: 28%;
+    }
+}
+@media (max-width: 1000px) {
+    .testimonials .group_star {
+        padding-right: 0;
+    }
+        .raiting {
+        width: 57%;
+    }
+        .location {
+        min-width: 17%;
+    }
+        .newsletter {
+        justify-content: center;
+        text-align: center;
+    }
+}
+@media (max-width: 900px) {
+    .cabin_cards, .inspiration_cards {
+        padding: 20px;
+    }
+    .inspiration_cards .image_card {
+        min-width: 266px;
+        max-height: 220px;
+    }
+    .search .container {
+        min-height: 180px;
+    }
+    .input_fields {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .CTA {
+        grid-column: 2/span 2;
+    }
+    .raiting {
+        width: 70%;
+    }
+}
+@media (max-width: 850px) {
+    .hero h1{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .welcome {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .raiting {
+        justify-content: center;
+        width: 100%;
+    }
+    .testimonials h1 {
+        text-align: center;
+        margin: 0 auto;
+        padding-bottom: 20px;
+    }
+
+    .text_testimonials {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .group_star {
+        margin: 0 auto;
+        padding-top: 20px;
+    }
+    .block_cards {
+        flex-wrap: wrap;
+    }
+    .card {
+        max-width: 266px;
+    }
+    .inspiration_cards .card {
+        max-width: 266px;
+    }
+    .desktop_version {
+        display: none;
+    }
+    .mobile_version {
+        display: grid;
+        text-align: center;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        width: 100%;
+    }
+    .info {
+        padding-top: 30px;
+    }
+}
+@media (max-width: 800px) {
+    .title_block {
+        width: 70%;
+    }
+    .last_text_faq {
+        line-height: 150%;
+    }
+}
+@media (max-width: 750px) {
+    .elements {
+        gap: 20px;
+    }
+    .text_cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .block_homepage {
+        gap: 20px;
+    }
+}
+@media (max-width: 750px) {
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 24px;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 14px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .logo {
+        font-size: 20px;
+    }
+    .element a {
+        font-size: 14px;
+    }
+    .welcome {
+        width: 60%;
+    }
+    .people, .trust_pilot {
+        display: none;
+    }
+    .faq .container {
+        padding-bottom: 30px;
+    }
+    .button_last {
+        width: 35%;
+    }
+    .body_copy {
+        text-align: center;
+        margin: 0 auto;
+    }
+    .body_copy h1 {
+        text-align: center;
+        max-width: 330px; ;
+    }
+    .last_section, .sign_up {
+        text-align: center;
+    }
+    .last_section h1, p {
+        margin: 0 auto;
+    }
+    .button_last {
+        margin-top: 30px;
+    }
+    .block_video {
+        display: none;
+    }
+    .text_block_home {
+        width: 100%;
+    }
+    .block_homepage {
+        padding-top: 60px;
+        padding-bottom: 50px;
+    }
+    .sign_up {
+        margin-top: 30px;
+    }
+    .newsletter {
+        gap: 25px;
+    }
+}
+@media (max-width: 650px) {
+    .elements {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .cabin_cards .container {
+        padding: 0;
+    }
+    .inspiration_cards .container {
+        padding: 0;
+    }
+    .navigation_list {
+        gap: 70px;
+    }
+    .cabin_cards .text {
+        text-align: center;
+    }
+    .inspiration_cards h2 {
+        text-align: center;
+    }
+    .cabin_cards h2 {
+        text-align: center;
+    }
+    .testimonials h1, .text_testimonials {
+        width: 70%;
+    }
+    .text_testimonials {
+        padding-top: 20px;
+    }
+    .body_copy {
+        width: 70%;
+    }
+    .body_copy h1 {
+        max-width: 392px;
+    }
+    .block_faq {
+        text-align: center;
+    }
+    .small_block {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .faq h2 {
+        text-align: center;
+    }
+    .title_block_bottom {
+        font-size: 16px;
+        text-align: center;
+    }
+    .last_text_faq {
+        text-align: center;
+    }
+    .down_footer {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    .button_block img {
+        display: none;
+    }
+}
+@media (max-width: 600px) {
+    .name, .price {
+        font-size: 18px;
+    }
+    .learn_1 {
+        font-size: 14px;
+    }
+    .text_block_1 {
+        text-align: center;
+        flex-direction: column;
+    }
+    .country {
+        text-align: center;
+    }
+    .fullscreen-dropdown {
+        left: 20vh;
+        width: 50vw;
+    }
+}
+@media (max-width: 550px) {
+    .navigation_list {
+        gap: 40px;
+    }
+    .body_copy h1 {
+        max-width: 322px;
+    }
+    .sign_up {
+    margin-bottom: 0;
+    }
+}
+@media (max-width: 500px) {
+    .container {
+        padding: 0 10px;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    .hero h1 {
+        max-width: 245px;
+    }
+    .navigation_list {
+        gap: 45px;
+    }
+    .logo {
+        display: none;
+    }
+    .navigation {
+        justify-content: center;
+        padding: 0;
+    }
+    .elements {
+        gap: 15px;
+        display: flex;
+    }
+    .input_fields {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .cabin_cards, .inspiration_cards {
+        padding: 30px 0;
+    }
+    .search .container {
+        padding: 15px 32px;
+        min-height: 150px;
+    }
+    .text {
+        text-align: center;
+        padding: 0 10px;
+    }
+    .button_last {
+        width: 50%;
+    }
+    .last_section h1 {
+        max-width: 215px;
+    }
+    .text_button {
+        padding: 15px ;
+    }
+}
+@media (max-width: 450px) {
+    .navigation_list {
+        gap: 15px;
+    }
+    .elements {
+        gap: 8px;
+    }
+    .welcome {
+        width: 90%;
+    }
+    .hero h1 {
+        max-width: 340px;
+    }
+    .input_fields {
+        display: flex;
+        flex-direction: column;
+    }
+    .search .container {
+        min-height: 270px;
+    }
+    .body_copy h1 {
+        max-width: 266px;
+    }
+    .fullscreen-dropdown {
+        left: 14vh;
+    }
+    .newsletter-form {
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px) {
+    .cabin_cards h2 {
+        padding: 0 20px;
+    }
+    .body_copy h1 {
+        max-width: 230px;
+    }
+    .navigation {
+        height: 70px;
+    }
+    .title_block_faq {
+        line-height: 140%;
+    }
+    .block_faq {
+        gap: 15px;
+    }
+    .newsletter-text p {
+        display: none;
+    }
+}
+@media (max-width: 350px) {
+    .hero h1 {
+        max-width: 252px;
+    }
+    .hero {
+        height: 75vh;
+    }
+    h1 {
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 12px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .body_copy h1 {
+        max-width: 196px;
+    }
+    .find_available {
+        max-width: 196px;
+        padding: 0;
+    }
+    .block_faq {
+        padding-top: 30px;
+    }
+    .button_last {
+        height: 65px;
+        padding: 0;
+    }
+    .toggle-list {
+        font-size: 14px;
+    }
+    .element a {
+        font-size: 12px;
+    }
+}
